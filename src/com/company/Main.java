@@ -26,7 +26,7 @@ public class Main {
         room[3] = new Room(2100,0); //4
         room[4] = new Room(2000,0); //5
         room[5] = new Room(2000,0); //6
-        room[6] = new Room(2000,0); //7
+        room[6] = new Room(2000,100); //7
         room[7] = new Room(2000,0); //8
         room[8] = new Room(2000,100); //9
         room[9] = new Room(2000,0); //10
@@ -34,9 +34,9 @@ public class Main {
         room[11] = new Room(2000,100); //12
         room[12] = new Room(2000,0); //01
         room[13] = new Room(2000,100); //02
-        room[14] = new Room(2500,0); //03
-        room[15] = new Room(2500,0); //04
-        room[16] = new Room(2000,100); //05
+        room[14] = new Room(2200,0); //03
+        room[15] = new Room(2000,0); //04
+        room[16] = new Room(2500,100); //05
 
         readFile("electric_lastmont.txt",room,3);
         readFile("water_lastmont.txt",room,4);

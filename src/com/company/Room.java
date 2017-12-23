@@ -13,6 +13,8 @@ public class Room {
     private int electric_thismont = 0 ;
     private int water_thismont = 0 ;
 
+    private static final int trash = 50 ;
+
     private static final int water_unit = 15 ;
     private static final int electric_unit = 7 ;
 
@@ -44,9 +46,9 @@ public class Room {
         return m + "\n น้ำ :  " + wunit + "x" + water_unit + " = "+water + " บาท " + "\n" +
                 " ไฟ :  "+ eunit+ "x" + electric_unit +" = " +electric + " บาท " + "\n" +
                 "ค่าห้อง : " + room_price + "\n" +
-                "ค่าขยะ : " + 50 + "\n" +
+                "ค่าขยะ : " + trash + "\n" +
                 "ค่าเนต : " + internet + "\n" +
-                " สุทธิ : " + (int)(water + electric + getRoom_price() +30 + internet )+ " บาท" +"\n" ;
+                " สุทธิ : " + (int)(water + electric + getRoom_price() + trash + internet )+ " บาท" +"\n" ;
 
 
     }
