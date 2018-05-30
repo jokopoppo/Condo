@@ -35,8 +35,8 @@ public class Main {
         room[12] = new Room(2000,0); //01
         room[13] = new Room(2000,100); //02
         room[14] = new Room(2200,0); //03
-        room[15] = new Room(2000,0); //04
-        room[16] = new Room(2500,100); //05
+        room[15] = new Room(2500,0); //04
+        room[16] = new Room(2000,100); //05
 
         readFile("electric_lastmont.txt",room,3);
         readFile("water_lastmont.txt",room,4);

@@ -43,12 +43,17 @@ public class Room {
         water =  wunit * water_unit ;
         electric = eunit * electric_unit ;
 
+        if((int)(water + electric + getRoom_price() + trash + internet )>10000){
+
+            throw new ExceptionInInitializerError();
+        }
         return m + "\n น้ำ :  " + wunit + "x" + water_unit + " = "+water + " บาท " + "\n" +
                 " ไฟ :  "+ eunit+ "x" + electric_unit +" = " +electric + " บาท " + "\n" +
                 "ค่าห้อง : " + room_price + "\n" +
                 "ค่าขยะ : " + trash + "\n" +
                 "ค่าเนต : " + internet + "\n" +
                 " สุทธิ : " + (int)(water + electric + getRoom_price() + trash + internet )+ " บาท" +"\n" ;
+
 
 
     }
