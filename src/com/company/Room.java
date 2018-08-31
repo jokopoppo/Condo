@@ -18,16 +18,16 @@ public class Room {
     private static final int water_unit = 15 ;
     private static final int electric_unit = 7 ;
 
-    public int internet ;
+    public int internet = 100 ;
     public Room (){
 
 
 
     }
 
-    public Room (int price,int net){
+    public Room (int price){
         setRoom_price(price);
-        internet = net ;
+
 
     }
 

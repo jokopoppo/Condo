@@ -20,23 +20,23 @@ public class Main {
 
         Room room[] = new Room[17] ;
 
-        room[0] = new Room(2000,0); //1
-        room[1] = new Room(2100,0); //2
-        room[2] = new Room(2000,100); //3
-        room[3] = new Room(2100,0); //4
-        room[4] = new Room(2000,0); //5
-        room[5] = new Room(2000,0); //6
-        room[6] = new Room(2000,100); //7
-        room[7] = new Room(2000,0); //8
-        room[8] = new Room(2000,100); //9
-        room[9] = new Room(2000,0); //10
-        room[10] = new Room(2000,0); //11
-        room[11] = new Room(2000,100); //12
-        room[12] = new Room(2000,0); //01
-        room[13] = new Room(2000,100); //02
-        room[14] = new Room(2200,0); //03
-        room[15] = new Room(2500,0); //04
-        room[16] = new Room(2000,100); //05
+        room[0] = new Room(2100); //1
+        room[1] = new Room(2000); //2
+        room[2] = new Room(2000); //3
+        room[3] = new Room(2000); //4
+        room[4] = new Room(2000); //5
+        room[5] = new Room(2000); //6
+        room[6] = new Room(2000); //7
+        room[7] = new Room(2200); //8
+        room[8] = new Room(2000); //9
+        room[9] = new Room(2000); //10
+        room[10] = new Room(2000); //11
+        room[11] = new Room(2000); //12
+        room[12] = new Room(2000); //01
+        room[13] = new Room(2000); //02
+        room[14] = new Room(2200); //03
+        room[15] = new Room(2400); //04
+        room[16] = new Room(2200); //05
 
         readFile("electric_lastmont.txt",room,3);
         readFile("water_lastmont.txt",room,4);
