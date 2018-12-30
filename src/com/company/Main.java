@@ -28,7 +28,7 @@ public class Main {
         room[5] = new Room(2000); //6
         room[6] = new Room(2000); //7
         room[7] = new Room(2200); //8
-        room[8] = new Room(2000); //9
+        room[8] = new Room(2200); //9
         room[9] = new Room(2000); //10
         room[10] = new Room(2000); //11
         room[11] = new Room(2000); //12

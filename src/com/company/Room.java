@@ -38,7 +38,7 @@ public class Room {
 
         int wunit = (this.getWater_thismont() - this.getWater_lastmont());
         int eunit = (this.getElectric_thismont() - this.getElectric_lastmont());
-        if( wunit < 4 ) wunit = 4;
+        if( wunit < 5 ) wunit = 5;
 //        wunit ++ ;
         eunit++;
         water =  wunit * water_unit ;
