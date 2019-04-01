@@ -20,7 +20,7 @@ public class Main {
 
         Room room[] = new Room[17] ;
 
-        room[0] = new Room(2000); //1
+        room[0] = new Room(2200); //1
         room[1] = new Room(2100); //2
         room[2] = new Room(2000); //3
         room[3] = new Room(2000); //4
